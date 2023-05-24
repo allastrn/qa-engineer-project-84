@@ -44,7 +44,7 @@ test-cases:
     Проверка безопасности сайта 
   status: pass
   
----
+
 bugreports: 
 - summary: |
     Баг в вёрстке карточек товара
