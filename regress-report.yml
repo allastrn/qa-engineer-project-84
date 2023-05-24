@@ -46,30 +46,29 @@ test-cases:
   
 ---
 bugreports: 
-   
 - summary: |
     Баг в вёрстке карточек товара
-environment: |
+  environment: |
     Chrome (113.0.5672.127)
     Win10
-steps-to-reproduce: |
+  steps-to-reproduce: |
     1. Выбрать в фильтре производителя OPPO
-expected-result: |
+  expected-result: |
     Блок с карточкой товара отображается в полном размере
-actual-result: |
+  actual-result: |
     Блок с карточкой товара сжимается, кнопка "В корзину" и цена находятся за её пределами (см.вложение hexletstore.jpg)
     
 - summary: |
     Баг при оформлении заказа
-environment: |
+  environment: |
     Chrome (113.0.5672.127)
     Win10
-steps-to-reproduce: |
+  steps-to-reproduce: |
     1. Добавить товар в корзину
     2. Перейти в корзину
     3. Нажать кнопку "Оформить заказ"
-expected-result: |
+  expected-result: |
     После уведомления об успешном оформлении заказа корзина автоматически очищается
-actual-result: |
+  actual-result: |
     После уведомления об успешном оформлении заказа автоматическая очистка корзины не происходит
     
