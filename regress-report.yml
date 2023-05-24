@@ -1,57 +1,53 @@
 ---
 - summary: |
     Проверка отображения информации на русском языке в карточке товара.
-status: fail
+ status: fail
 
 - summary: |
     Проверка отображения информации на английском языке в карточке товара.
-status: pass
+ status: pass
 
 - summary: |
     Проверка поиска товара по категории.
-status: pass
+ status: pass
 
 - summary: |
     Проверка поиска товара по ключевому слову.
-status: pass
+ status: pass
 
 - summary: |
     Проверка фильтрации товаров по ценовому диапазону.
-status: pass
-
-- summary: |
-     Проверка возможности фильтровать товары по цвету
-status: fail
+ status: pass
 
 - summary: |
     Проверка оптимизации главной страницы приложения для мобильного устройства.
-status: pass
+ status: pass
 
 - summary: |
     Проверка возможности просмотра товаров пользователем.
-status: pass
+ status: pass
 
 - summary: |
     Проверка отображения подробной информации о товаре.
-status: pass
+ status: pass
 
 - summary: |
     Проверка добавления товара в корзину.
-status: pass
+ status: pass
 
 - summary: |
     Проверка функции удаления содержимого корзины.
-status: pass 
+ status: pass 
 
 - summary: |
     Проверка безопасности сайта 
-status: pass
+ status: pass
   
 ---
 bugreports: 
    
 - summary: |
-    Тестирование дизайна
+    Баг в вёрстке карточек товара
 environment: |
     Chrome (113.0.5672.127)
     Win10
@@ -63,7 +59,7 @@ actual-result: |
     Блок с карточкой товара сжимается, кнопка "В корзину" и цена находятся за её пределами (см.вложение hexletstore.jpg)
     
 - summary: |
-    Проверка создания заказа
+    Баг при оформлении заказа
 environment: |
     Chrome (113.0.5672.127)
     Win10
